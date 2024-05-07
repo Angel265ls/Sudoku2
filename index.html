@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sudoku</h1>
+    <div class="content">
+      <div id="sudoku-container">
+        <table id="sudoku">
+        </table>
+      </div>
+      <div id="score-container">
+        <h2>Puntuacion</h2>
+        <table id="scoreTable">
+          <tr>
+            <th>Jugador</th>
+            <th>Puntaje</th>
+          </tr>
+          <tr>
+            <td>Jugador</td>
+            <td id="playerScore">0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <button id="botonResolver" class="button">Resolver</button>
+    <button id="botonReiniciar" class="button">Reiniciar</button>
+    
+  </div>
+  
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
